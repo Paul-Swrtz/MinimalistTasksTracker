@@ -1,0 +1,9 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/.vs
+/Tasks/bin
+/Tasks/obj
+/Tasks/Properties/PublishProfiles/FolderProfile.pubxml.user
+/Tasks/Tasks.csproj.user
