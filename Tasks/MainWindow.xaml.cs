@@ -103,6 +103,10 @@ namespace Tasks
             checkbox.Checked += (s, args) =>
             {
                 SaveTasks();
+                if (DoneButton.Content.ToString() == "S")
+                {
+                    panel.Visibility = Visibility.Collapsed;
+                }
             };
 
             textbox.TextChanged += (s, args) => SaveTasks();
